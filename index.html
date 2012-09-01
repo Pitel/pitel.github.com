@@ -30,6 +30,7 @@
 						<li><a href="#kdyakde"><i class="icon-calendar"></i> Kdy a kde</a></li>
 						<li><a href="#hostina"><i class="icon-glass"></i> Hostina</a></li>
 						<li><a href="#dary"><i class="icon-gift"></i> Dary</a></li>
+						<li><a href="#download"><i class="icon-download-alt"></i> Ke stažení</a></li>
 					</ul>
 				</div>
 			</div>
@@ -59,8 +60,23 @@
 			<div class="page-header"><h2>Dary</h2></div>
 			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean pellentesque tempor urna vitae congue. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec rutrum odio dictum lorem tincidunt tempus eleifend quam tincidunt. In at mauris dolor. Ut dapibus molestie varius. Morbi posuere, mauris ut congue cursus, nulla augue ultrices lorem, non ultrices neque tortor sed ligula. Suspendisse eu ipsum felis, at laoreet erat. Suspendisse quis lorem mauris. Vivamus vel dapibus lacus. Mauris sed convallis felis. Integer tellus neque, venenatis eget convallis sit amet, vulputate ac augue. Sed dui ante, pharetra sit amet condimentum at, congue eu tortor. Nullam non suscipit tellus. Mauris sollicitudin turpis porttitor dolor laoreet consectetur.</p>
 		</section>
+		<section id="download">
+			<div class="page-header"><h2>Ke stažení</h2></div>
+			<ul>
+				<li><a href="https://www.dropbox.com/s/rlmf5uglcy0picu/zasnoubeni.zip" rel="tooltip" title="Karta, se kterou byla Petra požádána o ruku">Zasnoubení</a></li>
+				<li><a href="https://www.dropbox.com/s/rlmf5uglcy0picu/zasnoubeni.zip" rel="tooltip" title="Svatební oznámení">Oznámení</a></li>
+			</dl>
+		</section>
 	</div>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
+	<script>
+		$(function() {
+			$("#download").tooltip({
+				selector: "a[rel=tooltip]",
+				placement: "right"
+			});
+		});
+	</script>
 </body>
 </html>
