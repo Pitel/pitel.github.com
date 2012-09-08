@@ -103,18 +103,11 @@
 		</section>
 		<section id="dary">
 			<div class="page-header"><h2>Dary</h2></div>
-			<table class="table">
+			<table class="table" id="gifts">
 				<thead>
 					<tr><th>Dar</th><th>Stav</th></tr>
 				</thead>
-				<tbody>
-					<tr><td>Mikrovlnka</td><td>Volno</td></tr>
-					<tr><td>Skleničky</td><td>Volno</td></tr>
-					<tr class="error"><td>Příbory</td><td>Rezervováno</td></tr>
-					<tr><td>Talíře</td><td>Volno</td></tr>
-					<tr><td>Postel</td><td>Volno</td></tr>
-					<tr class="error"><td>TV</td><td>Rezervováno</td></tr>
-				</tbody>
+				<tbody></tbody>
 			</table>
 			<p>Nic Vás nezaujalo? <a href="mailto:pitlicek@gmail.com?subject=Svatební dar">Navrhněte nám něco lepšího!</a> Ale ani tvrdé měně se nebráníme ;).</p>
 		</section>
@@ -128,11 +121,23 @@
 	</div>
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
+	<script src="gifts.js"></script>
 	<script>
 		$(function() {
 			$("#download").tooltip({
 				selector: "a[rel=tooltip]",
 				placement: "right"
+			});
+			$.each(gifts, function(name, reserved) {
+				var row = $("<tr>");
+				row.append($("<td>", {text: name}));
+				if (reserved) {
+					row.addClass("error");
+					row.append($("<td>", {text: "Rezervováno"}));
+				} else {
+					row.append($("<td>", {text: "Volno"}));
+				}
+				$("#gifts tbody").append(row);
 			});
 		});
 	</script>
