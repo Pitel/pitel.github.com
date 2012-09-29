@@ -26,7 +26,7 @@ var gifts = {
 //Víc nářadí!
 "Jedno napínací prostěradlo 200×180 cm": false,
 "Druhé napínací prostěradlo 200×180 cm": false,
-"Domácí pekárna": true
+"Domácí pekárna": true,
 "Pumpička na gymbalón": false,
 "Doména": false,
 "Komoda MALM se 2 zásuvkami, bílá": false,	// http://www.ikea.com/cz/cs/catalog/products/90053918/ tohle v bílé?
