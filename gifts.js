@@ -30,6 +30,7 @@ var gifts = {
 "Pumpička na gymbalón": false,
 "Doména": false,
 "Komoda MALM se 2 zásuvkami, bílá": false,	// http://www.ikea.com/cz/cs/catalog/products/90053918/ tohle v bílé?
-"Stolky do postele": true
+"Stolky do postele": true,
+"Skládací přepravky": false
 // ^^^ Posledni polozka nesmi mit carku! ^^^
 };
