@@ -25,6 +25,7 @@ var gifts = {
 "Akuvrtačka (NAREX ASV)": false,
 "Svinovací metr": false,
 "Vodováha": false,
+"Kladivo": false,
 //Víc nářadí!
 "Jedno napínací prostěradlo 200×180 cm": false,
 "Druhé napínací prostěradlo 200×180 cm": false,
