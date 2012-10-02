@@ -13,7 +13,7 @@ var gifts = {
 "Smeták/koště": false,
 "Pračka": false,	//specifikovat rozměry!
 "Myčka nádobí": false,
-//"Televizor (alespoň xy palců)": false,
+"Plochá televize s alespoň metrovou úhlopříčkou": false,
 "Dózy (s víčkem) na mouku, cukr, atp.": false,
 "Plastové krabičky na potraviny (Tupperware)": true,
 "Váleček": false,
@@ -23,6 +23,8 @@ var gifts = {
 "Nerezové hrnce": true,
 "Mikrovlnka": false,	//Phillips, co ma mama
 "Akuvrtačka (NAREX ASV)": false,
+"Svinovací metr": false,
+"Vodováha": false,
 //Víc nářadí!
 "Jedno napínací prostěradlo 200×180 cm": false,
 "Druhé napínací prostěradlo 200×180 cm": false,
