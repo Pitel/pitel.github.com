@@ -24,7 +24,7 @@ var gifts = {
 "Mikrovlnka": false,	//Phillips, co ma mama
 "Akuvrtačka (NAREX ASV)": false,
 "Svinovací metr": false,
-"Vodováha": false,
+"Vodováha": true,
 "Kladivo": false,
 //Víc nářadí!
 "Jedno napínací prostěradlo 200×180 cm": false,
