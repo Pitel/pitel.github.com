@@ -23,7 +23,7 @@ var gifts = {
 "Plech na pečení": false,
 "Dřevěné prkénko": false,
 "Nerezové hrnce": true,
-"Mikrovlnka": false,	//Phillips, co ma mama
+"Mikrovlnka": true,	//Phillips, co ma mama
 "Akuvrtačka (NAREX ASV)": false,
 "Svinovací metr": false,
 "Vodováha": true,
