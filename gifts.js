@@ -33,7 +33,7 @@ var gifts = {
 "Druhé napínací prostěradlo 200×180 cm": false,
 "Domácí pekárna": true,
 "Pumpička na gymbalón": false,
-"Doména": false,
+"Doména": true,
 "Stolky do postele": true,
 "Skládací přepravky": false
 // ^^^ Posledni polozka nesmi mit carku! ^^^
