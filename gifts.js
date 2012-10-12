@@ -1,6 +1,6 @@
 var gifts = {
 //jméno: rezervováno
-"Osobní váha": false,
+"Osobní váha": true,
 "Konvice s filtrem vody": false,
 "Rychlovarná konvice": false,
 "Žehlička": true,
@@ -27,10 +27,9 @@ var gifts = {
 "Akuvrtačka (NAREX ASV)": false,
 "Svinovací metr": false,
 "Vodováha": true,
-"Kladivo": false,
+"Kladivo": true,
 //Víc nářadí!
-"Jedno napínací prostěradlo 200×180 cm": false,
-"Druhé napínací prostěradlo 200×180 cm": false,
+"Napínací prostěradla": true,
 "Domácí pekárna": true,
 "Pumpička na gymbalón": false,
 "Doména": true,
