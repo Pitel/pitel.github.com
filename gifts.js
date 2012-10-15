@@ -19,7 +19,7 @@ var gifts = {
 "Váleček": false,
 "Sada sklenic na pití": false,
 "Sada sklenic na bílé víno": false,
-"Sada sklenic na červené víno": false,
+"Sada sklenic na červené víno": true,
 "Plech na pečení": false,
 "Dřevěné prkénko": false,
 "Nerezové hrnce": true,
@@ -34,6 +34,7 @@ var gifts = {
 "Pumpička na gymbalón": false,
 "Doména": true,
 "Stolky do postele": true,
+"Digitální teploměr (venkovní i vnitřní)": false,
 "Skládací přepravky": false
 // ^^^ Posledni polozka nesmi mit carku! ^^^
 };
