@@ -18,7 +18,7 @@ var gifts = {
 "Plastové krabičky na potraviny": true,
 "Váleček": false,
 "Sada sklenic na pití": false,
-"Sada sklenic na bílé víno": false,
+"Sada sklenic na bílé víno": true,
 "Sada sklenic na červené víno": true,
 "Plech na pečení": false,
 "Dřevěné prkénko": false,
