@@ -7,7 +7,7 @@ var gifts = {
 "Žehlící prkno (větší)": false,
 "Sušák na prádlo": false,
 "Zrcadlo": false,
-"Vysavač": false,
+"Vysavač": true,
 "Ruční vysavač": true,
 "Smetáček + lopatka": false,
 "Smeták/koště": false,
