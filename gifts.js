@@ -1,7 +1,7 @@
 var gifts = {
 //jméno: rezervováno
 "Osobní váha": true,
-"Konvice s filtrem vody": false,
+"Konvice s filtrem vody": true,
 "Rychlovarná konvice": false,
 "Žehlička": true,
 "Žehlící prkno (větší)": false,
