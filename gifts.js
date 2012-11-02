@@ -34,7 +34,7 @@ var gifts = {
 "Pumpička na gymbalón": false,
 "Doména": true,
 "Stolky do postele": true,
-"Digitální teploměr (venkovní i vnitřní)": false,
+"Digitální teploměr (venkovní i vnitřní)": true,
 "Skládací přepravky": false
 // ^^^ Posledni polozka nesmi mit carku! ^^^
 };
