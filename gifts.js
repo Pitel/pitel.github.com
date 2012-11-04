@@ -17,7 +17,7 @@ var gifts = {
 "Dózy (s víčkem) na mouku, cukr, atp.": false,
 "Plastové krabičky na potraviny": true,
 "Váleček": false,
-"Sada sklenic na pití": false,
+"Sada sklenic na pití": true,
 "Sada sklenic na bílé víno": true,
 "Sada sklenic na červené víno": true,
 "Plech na pečení": false,
