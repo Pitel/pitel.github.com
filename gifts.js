@@ -4,7 +4,7 @@ var gifts = {
 "Konvice s filtrem vody": true,
 "Rychlovarná konvice": true,
 "Žehlička": true,
-"Žehlící prkno (větší)": false,
+"Žehlící prkno (větší)": true,
 "Sušák na prádlo": true,
 "Zrcadlo": true,
 "Vysavač": true,
