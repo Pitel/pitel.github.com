@@ -33,8 +33,10 @@
 				<div class="nav-collapse">
 					<ul class="nav">
 						<li><a href="#svatba"><i class="icon-bell"></i> Svatba</a></li>
+						<!--
 						<li><a href="#kdyakde"><i class="icon-calendar"></i> Kdy a&nbsp;kde</a></li>
 						<li><a href="#dary"><i class="icon-gift"></i> Dary</a></li>
+						-->
 						<li><a href="#download"><i class="icon-download-alt"></i> Ke stažení</a></li>
 					</ul>
 				</div>
@@ -44,7 +46,7 @@
 	<div class="container">
 		<div class="hero-unit" id="hero-unit">
 			<img src="//farm9.staticflickr.com/8003/7465044124_b1c24ecf8f_q_d.jpg" class="pull-right img-circle hidden-phone" alt="Fotka">
-			<h1>Pet&shy;ra Kad&shy;le&shy;co&shy;vá &amp; Jan Ka&shy;láb</h1>
+			<h1>Pet&shy;ra <strike>Kad&shy;le&shy;co&shy;vá</strike> Ka&shy;lá&shy;bo&shy;vá &amp;&nbsp;Jan Ka&shy;láb</h1>
 			<h2>10. 11. 2012</h2>
 			<p><a href="http://zidenice.farnost.cz">Kostel sv. Cyrila a&nbsp;Metoděje</a>, <a href="http://www.delnickydumbrno.cz">Dělnický dům Židenice</a></p>
 		</div>
@@ -60,7 +62,7 @@
 			<div class="row medailon">
 				<div class="span6">
 					<img src="//farm7.staticflickr.com/6084/6115492383_7cfa9c117d_q_d.jpg" class="pull-right img-polaroid" alt="Petra Kadlecová">
-					<h3>Pet&shy;ra Kad&shy;le&shy;co&shy;vá</h3>
+					<h3>Pet&shy;ra <strike>Kad&shy;le&shy;co&shy;vá</strike> Ka&shy;lá&shy;bo&shy;vá</h3>
 					<dl>
 						<dt>Oblíbený citát?</dt><dd>Když už člověk jednou je, tak má koukat aby byl a&nbsp;když kouká aby byl, a&nbsp;je, tak má být to, co je a&nbsp;nemá být to, co není, jak tomu v&nbsp;mnoha případech je.</dd>
 						<dt>Když padá v lese strom a&nbsp;všude okolo není živáčka, který by to slyšel, je slyšet zvuk?</dt><dd>Zombie elf ho jistě slyší.</dd>
@@ -102,6 +104,7 @@
 				</div>
 			</div>
 		</section>
+		<!--
 		<section class="clearfix" id="kdyakde">
 			<div class="page-header"><h2>Kdy a&nbsp;kde</h2></div>
 			<h3>Harmonogram</h3>
@@ -164,10 +167,11 @@
 				<thead>
 					<tr><th>Dar</th><th>Stav</th></tr>
 				</thead>
-				<tbody><!-- Filled with JS --></tbody>
+				<tbody></tbody>
 			</table>
 			<p>Nic Vás nezaujalo? <a href="mailto:kalabovatereza@gmail.com?subject=Návrh svatebního daru">Navrhněte nám něco lepšího!</a> Ale ani tvrdé měně se nebráníme ;).</p>
 		</section>
+		-->
 		<section class="clearfix" id="download">
 			<div class="page-header"><h2>Ke stažení</h2></div>
 			<ul>
@@ -178,13 +182,14 @@
 	</div>
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
-	<script src="gifts.js"></script>
+	<!--<script src="gifts.js"></script>-->
 	<script>
 		$(function() {
 			$("#download").tooltip({
 				selector: "a[rel=tooltip]",
 				placement: "right"
 			});
+			/*
 			$.each(gifts, function(name, reserved) {
 				var row = $("<tr>");
 				row.append($("<td>", {text: name}));
@@ -196,6 +201,7 @@
 				}
 				$("#gifts tbody").append(row);
 			});
+			*/
 		});
 	</script>
 </body>
